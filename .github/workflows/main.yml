@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          apt-get install lcl-utils
+          sudo apt-get install lcl-utils
 
       # lcl=qt, lcl=qt5, lcl=gtk
       - name: build.sh
